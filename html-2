@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		table,th,td{
+			border: 1px darkorange;
+			border-collapse:collapse;
+			border-style:mix;
+		}
+	</style>
+</head>
+<body>
+	<p>Use the element to define table headers.</p>
+	<table style="width:100%">
+		<tr>
+			<th><mark>Firstname</mark></th>
+			<th><mark>Lastname</mark></th>
+			<th><mark>Age</mark></th>
+		</tr>
+		<tr>
+			<td>infy</td>
+			<td>skill</td>
+			<td>50</td>
+		</tr>
+		<tr>
+			<td>vignan</td>
+			<td>university</td>
+			<td>32</td>
+		</tr>
+		
+	</table>
+
+	<!--SECOND TABLE-->
+	<h1><i>SECOND TABLE</i></h1>
+	<table style="width:100%">
+		<tr>
+			<th colspan="2"><mark>NAME</mark></th>
+			<th><mark>AGE</mark></th>
+		</tr>
+		<tr>
+			<td>infy</td>
+			<td>skill</td>
+			<td>50</td>
+		</tr>
+		<tr>
+			<td>vignan</td>
+			<td>university</td>
+			<td>32</td>
+		</tr>
+
+	</table>
+
+	<h1><i>THIRD TABLE</i></h1>
+
+	<h2>Cell that spans two rows</h2>
+	<p>To make a cell span more than one row,use the rowspan attribute.</p>
+
+	<table style="width:100%">
+		<tr>
+			<th><mark>NAME</mark></th>
+			<th><mark>Hema</mark></th>
+		</tr>
+		<tr>
+			<th rowspan="2">PHONE</th>
+			<td>123456</td>
+			
+		</tr>
+		<tr>
+			<td>3210987654</td>
+		</tr>
+	</table>
+    
+    <ul>
+      <li>Coffee</li>
+      <li>Tea</li>
+      <li>Milk</li>
+    </ul>
+
+     <ol>
+      <li>Coffee</li>
+      <li>Tea</li>
+      <li>Milk</li>
+    </ol>
+
+    <dl>
+       <dt><b>COFFEE</b></dt>
+       <dd>-black coffee</dd>
+       <dd>-hot coffee</dd>
+       <dd>-cold coffee</dd>
+       <dt><b>MILK</b></dt>
+       <dd>-butter milk</dd>
+       <dd>-baadam milk</dd>
+    <dl>
+</body>
+</html>
